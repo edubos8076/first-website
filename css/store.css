@@ -47,12 +47,3 @@ body{
   color:#fc6316;
   text-align: center;
 }
-
-@media {max-width: 500px} {
-  h1{
-    font-size: 600px;
-  }
-  a{
-    font-size: 50px;
-  }
-}

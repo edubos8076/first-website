@@ -2,8 +2,10 @@ body{
   background-color: #efefef;
   margin-left: auto;
   margin-right: auto;
+  margin-top: auto;
   max-width: 1000px;
   padding: 10px;
+  color: #fc6316;
 }
 ul{
   list-style-type: none;
@@ -26,21 +28,38 @@ li a{
   padding: 14px 16px;
   text-decoration:none;
 }
+
 h1{
-  color: #fc6316;
-  font-size: 60px;
   text-align: center;
+  color: #fc6316;
+  font-size: 50px;
 }
-p{
-text-align: center;
-color: #7500a8;
-font-family: sans-serif;
+h2{
+  text-align: center;
+  color: #fc6316;
+  font-size: 36px;
 }
-img.center {
-  display: block;
+h3{
+  text-align: center;
+  color: #fc6316;
+  font-size: 36px;
+}
+table{
+  border:1px solid purple;
+  border-collapse: collapse;
   margin-left: auto;
   margin-right: auto;
-  max-width: 100%;
+  max-width:800px;
+  padding:50px;
+  width:82%;
+
+}
+th, td{
+  padding: 8px;
+  border:1px solid purple;
+  border-collapse: collapse;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 @media {max-width: 500px} {
