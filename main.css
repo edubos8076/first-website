@@ -1,6 +1,5 @@
 body{
   background-color: #efefef;
-  font-family: 'Roboto', sans-serif;
   margin-left: auto;
   margin-right: auto;
   max-width: 1000px;
@@ -21,6 +20,7 @@ a{
   display: block;
   padding: 8px;
   background-color:#7500a8;
+  font-family: 'Roboto', sans-serif; 
 }
 li a{
   color: #ffffff;
@@ -28,14 +28,15 @@ li a{
   text-decoration:none;
 }
 h1{
-  color: #fc6316;
   font-size: 60px;
   text-align: center;
+  color: #fc6316;
+  font-family: 'Roboto', sans-serif;
 }
 p{
-text-align: center;
-color: #7500a8;
-font-family: sans-serif;
+  color: #fc6316;
+  text-align: center;
+  color: #7500a8;
 }
 img.center {
   display: block;
@@ -43,12 +44,10 @@ img.center {
   margin-right: auto;
   max-width: 100%;
 }
-
 @media {max-width: 500px} {
   h1{
     font-size: 600px;
   }
-  a{
-    font-size: 50px;
+
   }
 }
